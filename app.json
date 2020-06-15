@@ -1,0 +1,17 @@
+{
+  "name": "shareplaces",
+  "displayName": "shareplaces",
+  "expo": {
+    "name": "shareplaces",
+    "slug": "shareplaces",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
