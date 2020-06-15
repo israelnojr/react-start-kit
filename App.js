@@ -15,10 +15,12 @@ export default class App extends React.Component {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         this.setState({
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-          latitudeDelta: 0.0622,
-          longitudeDelta: 0.0421,
+          userLocation: {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            latitudeDelta: 0.0622,
+            longitudeDelta: 0.0421,
+          },
         });
         console.log(position.coords.latitude, "latitude");
         console.log(position.coords.longitude, "longitude");
