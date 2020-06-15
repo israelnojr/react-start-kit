@@ -3,7 +3,7 @@ import { TouchableOpacity, StyleSheet, Text } from "react-native";
 const GetLocation = (props) => {
   return (
     <TouchableOpacity style={styles.button} onPress={props.onGetLocation}>
-      <Text>Get Location</Text>
+      <Text>Get My Location</Text>
     </TouchableOpacity>
   );
 };

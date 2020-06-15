@@ -11,10 +11,10 @@ const UsersMap = (props) => {
     <View style={styles.mapContainer}>
       <MapView
         initialRegion={{
-          latitude: 6.5655267,
-          longitude: 3.2745521,
-          latitudeDelta: 0.0622,
-          longitudeDelta: 0.0421,
+          latitude: 37.78825,
+          longitude: -122.4324,
+          latitudeDelta: 0.015,
+          longitudeDelta: 0.0121,
         }}
         region={props.userLocation}
         style={styles.map}
